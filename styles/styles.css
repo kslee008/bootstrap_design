@@ -21,13 +21,28 @@ body{
   background-blend-mode: overlay;
 }
 
+.container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-xy: 0;
+  width: 100%;
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+  border: 1px solid white;
+
+}
+
+
 /* 
 Bootstrap's style rules: .btn-primary has been overriden (below).
 The keyword !important declares higher priority over the specific style rules for .btn-primary.
 */
 
-.btn-primary{
-  background-color:#ea383c !important;
+/* .btn-primary {
+  background-color: black !important;
+} */
+
+.btn-primary{ 
+  background-color: #ea383c!important;
   border: none !important;
 }
 
