@@ -21,7 +21,7 @@ body{
   background-blend-mode: overlay;
 }
 
-.container {
+/*.container {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-xy: 0;
   width: 100%;
@@ -29,7 +29,7 @@ body{
   margin-left: 20px !important;
   border: 1px solid white;
 
-}
+} */
 
 
 /* 
